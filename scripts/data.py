@@ -210,3 +210,16 @@ SQUAD = [
 
 # Build-up play, keeper to striker: the order the ball travels on the pitch.
 PASSING_ORDER = [1, 4, 6, 8, 10, 7, 9]
+
+# ── the bench ────────────────────────────────────────────────────────────────
+BENCH = [
+    {"title": "Stratify", "url": "https://dombivli-hackathon-s6vb.vercel.app", "tagline": "Algorithmic trading platform with a Pandas and NumPy strategy backtester.", "stack": ["Python", "React", "SQL"]},
+    {"title": "Medical AI · Chest X-ray", "url": None, "tagline": "YOLOv9 and DenseNet-121 diagnosis on 2,000+ chest X-rays, explained with Grad-CAM.", "stack": ["PyTorch", "YOLOv9", "Grad-CAM"]},
+    {"title": "Parallel", "url": gh("parallel"), "tagline": "Attention digital twin that shows both futures of a notification before you tap.", "stack": ["TypeScript", "Python", "Causal ML"]},
+    {"title": "Smart Resort 360", "url": gh("guestexperience"), "tagline": "Guest portal with a live 3D twin of a 130-suite resort and a trilingual concierge.", "stack": ["Next.js", "three.js", "RAG"]},
+    {"title": "DriftWard", "url": gh("driftward"), "tagline": "Behavioural identity layer that contains hijacked AI agents with valid tokens.", "stack": ["FastAPI", "three.js", "CUSUM"]},
+    {"title": "CityPulse AI", "url": gh("citypulse-ai"), "tagline": "Local-first civic evidence workbench: every number traces back to source rows.", "stack": ["FastAPI", "SQLite", "H3"]},
+    {"title": "Learnova IPD", "url": gh("LearnovaIPD"), "tagline": "The original engine behind Learnova, turning text-heavy decks into visual slides.", "stack": ["Python", "Groq", "Gemini"]},
+    {"title": "Football Analytics", "url": gh("Football-Analytics"), "tagline": "Tactical football analytics platform, in research and architecture phase.", "stack": ["Python", "ML", "CV"]},
+    {"title": "HackNova L5614", "url": gh("HackNova-L5614"), "tagline": "A logistics platform built against the clock at the HackNova L5614 hackathon.", "stack": ["JavaScript", "Python", "Docker"]},
+]
