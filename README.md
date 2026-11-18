@@ -8,3 +8,15 @@
   <a href="https://www.linkedin.com/in/swayam-panchal-11281b34a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-62C8FF?style=for-the-badge&labelColor=0B111B&logo=linkedin&logoColor=62C8FF" alt="Connect on LinkedIn" /></a>
   <a href="https://github.com/SDP42?tab=repositories"><img src="https://img.shields.io/badge/GitHub-56_repositories-F3C75A?style=for-the-badge&labelColor=0B111B&logo=github&logoColor=F3C75A" alt="56 repositories on GitHub" /></a>
 </p>
+
+<p align="center">
+  <a href="#about"><b>About</b></a> ·
+  <a href="#stats"><b>Stats</b></a> ·
+  <a href="#captain"><b>Captain</b></a> ·
+  <a href="#starting-xi"><b>Starting XI</b></a> ·
+  <a href="#bench"><b>Bench</b></a> ·
+  <a href="#honours"><b>Honours</b></a> ·
+  <a href="#toolkit"><b>Toolkit</b></a> ·
+  <a href="#activity"><b>Activity</b></a> ·
+  <a href="#contact"><b>Contact</b></a>
+</p>
