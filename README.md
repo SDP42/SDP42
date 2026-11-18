@@ -74,3 +74,8 @@ I like problems where a wrong answer costs something real (freight bills, medica
 <a href="https://stadium-portfolio.vercel.app"><img src="assets/pitch.svg" width="100%" alt="Eleven projects as a football team in a 4-3-3, with the ball passed from the keeper to the striker" /></a>
 
 Every project is a player, picked for a position that suits it. Click a card to open the repository; full case studies and project documents are in the **[stadium](https://stadium-portfolio.vercel.app)**.
+
+<p align="center">
+  <a href="https://github.com/SDP42/OpsDesk"><img src="assets/cards/10-opsdesk.svg" width="49%" alt="#10 OpsDesk, playmaker: a travel-ops ticketing desk run like an air-traffic control tower. 472 commits." /></a>
+  <a href="https://github.com/SDP42/LearnovaV2"><img src="assets/cards/08-learnova.svg" width="49%" alt="#8 Learnova V2, central midfield: rebuilds lecture PDFs into illustrated, interactive decks. 185 commits." /></a>
+</p>
