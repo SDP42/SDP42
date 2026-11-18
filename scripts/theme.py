@@ -26,3 +26,19 @@ SANS = "'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,A
 DISPLAY = "'Arial Black','Segoe UI Black','Helvetica Neue',Impact,Arial,sans-serif"
 MONO = "'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace"
 MONO_W = 0.6  # advance width of a monospace glyph, in ems
+
+# ── motion ───────────────────────────────────────────────────────────────────
+EASE = "cubic-bezier(.22,.8,.2,1)"
+
+# Every element's resting style is its final state; animations only describe
+# how it arrives. With motion turned off the image still reads correctly.
+REDUCED_MOTION = "@media (prefers-reduced-motion:reduce){*{animation:none!important}}"
+
+# Entrance keyframes reused across assets.
+KEYFRAMES = """
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes pulse{50%{opacity:.25}}
+@keyframes blink{50%{opacity:0}}
+"""
