@@ -223,3 +223,17 @@ BENCH = [
     {"title": "Football Analytics", "url": gh("Football-Analytics"), "tagline": "Tactical football analytics platform, in research and architecture phase.", "stack": ["Python", "ML", "CV"]},
     {"title": "HackNova L5614", "url": gh("HackNova-L5614"), "tagline": "A logistics platform built against the clock at the HackNova L5614 hackathon.", "stack": ["JavaScript", "Python", "Docker"]},
 ]
+
+# ── sections ─────────────────────────────────────────────────────────────────
+# (file slug, number, stadium location, heading) for each section banner.
+SECTIONS = [
+    ("tunnel", "01", "Players' tunnel", "About me"),
+    ("scoreboard", "02", "Big screen", "Match stats"),
+    ("captain", "03", "The armband", "Captain's project"),
+    ("pitch", "04", "The pitch", "Starting XI"),
+    ("bench", "05", "The dugout", "On the bench"),
+    ("honours", "06", "Centre spot", "Honours & roles"),
+    ("toolkit", "07", "Kit room", "Toolkit"),
+    ("activity", "08", "Training ground", "GitHub activity"),
+    ("press", "09", "Press box", "Get in touch"),
+]
