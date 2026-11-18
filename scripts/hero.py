@@ -144,3 +144,36 @@ def stadium(rng):
         f'<g style="{anim("rise", 1.2, 0.1)}">'
         f"{lot}{facade}{shell}{tiers}{pitch}{''.join(flashes)}{roof}{band}{towers}</g>"
     )
+
+
+def headline():
+    cycle = 3.2 * len(ROLES)
+    share = 100 / len(ROLES)
+    words = "".join(
+        f'<text class="word" x="180" y="372" style="opacity:{1 if i == 0 else 0};'
+        f'animation:word{i} {cycle}s infinite">{esc(w)}</text>'
+        for i, w in enumerate(ROLES)
+    )
+    frames = "".join(
+        f"@keyframes word{i}{{0%,{max(i * share - 0.01, 0):.2f}%{{opacity:0}}"
+        f"{i * share + 2:.2f}%,{(i + 1) * share - 3:.2f}%{{opacity:1}}"
+        f"{(i + 1) * share:.2f}%,100%{{opacity:0}}}}"
+        for i in range(len(ROLES))
+    )
+    text = (
+        f'<circle cx="56" cy="74" r="6" fill="{RED}" style="animation:pulse 1.4s ease-in-out infinite"/>'
+        f'<circle cx="56" cy="74" r="11" fill="none" stroke="{RED}" stroke-opacity=".5"/>'
+        + caption(74, 79, "Live from Mumbai", color=RED, size=13, spacing=3)
+        + f'<text x="46" y="196" font-family="{DISPLAY}" font-size="104" font-weight="900" fill="{INK}" '
+        f'textLength="560" lengthAdjust="spacingAndGlyphs" style="{anim("rise", 0.9, 0.15)}">{PROFILE["first"]}</text>'
+        f'<text class="outline" x="46" y="300" font-family="{DISPLAY}" font-size="104" font-weight="900" '
+        f'textLength="560" lengthAdjust="spacingAndGlyphs">{PROFILE["last"]}</text>'
+        f'<g font-family="{MONO}" font-size="19" font-weight="600">'
+        f'<text x="48" y="372" fill="{DIM}">&gt; building</text>{words}'
+        '</g>'
+        f'<text x="48" y="418" font-family="{SANS}" font-size="18" fill="{MUTE}" style="{anim("rise", 0.8, 0.9)}">'
+        f'AI &amp; Data Science undergrad at DJSCE · CGPA 9.70 · 5× hackathon winner.</text>'
+        f'<text x="48" y="444" font-family="{SANS}" font-size="18" fill="{MUTE}" style="{anim("rise", 0.8, 1.0)}">'
+        f"{esc(PROFILE['summary'])} This is my stadium.</text>"
+    )
+    return text, frames
