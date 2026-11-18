@@ -38,3 +38,17 @@ I like problems where a wrong answer costs something real (freight bills, medica
 | 🧑‍🏫 **Mentoring** | Python, NumPy, Pandas and core ML at the Infomatrix Python Bootcamp |
 | 📄 **Research** | Applied AI in education, written up for **IEEE** and **Springer LNCS** |
 | ⚽ **Off the pitch** | Football tactics, sports analytics, explainable AI, cyber-safety |
+
+<details>
+<summary><b>Education</b></summary>
+<br />
+
+| Years | School | Qualification | Score |
+| :-- | :-- | :-- | --: |
+| 2024 – 2028 | Dwarkadas J. Sanghvi College of Engineering | B.Tech, AI & Data Science · Mumbai University | **9.70** CGPA |
+| 2024 | Vidyaniketan Junior College of Commerce and Science | HSC · Maharashtra State Board | **87.67%** |
+| 2022 | Shree Siddhi Vinayagar English High School | SSC · Maharashtra State Board | **93%** |
+
+</details>
+
+<p align="right"><a href="#top">↑ back to top</a></p>
