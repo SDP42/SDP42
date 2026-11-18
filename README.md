@@ -166,3 +166,14 @@ Every project is a player, picked for a position that suits it. Click a card to 
 </p>
 
 <p align="right"><a href="#top">↑ back to top</a></p>
+
+<a id="contact"></a>
+
+<img src="assets/sections/press.svg" width="100%" alt="09 · Press box: Get in touch" />
+
+<a href="https://stadium-portfolio.vercel.app"><img src="assets/portfolio.svg" width="100%" alt="Walk into my 3D stadium portfolio at stadium-portfolio.vercel.app" /></a>
+
+<p align="center">
+  Open to <b>internships</b>, <b>research collaborations</b> and <b>hackathon teams</b> in data science, ML and GenAI.<br />
+  The quickest way to reach me is LinkedIn, or the contact page in the stadium.
+</p>
