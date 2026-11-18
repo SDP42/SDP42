@@ -27,7 +27,7 @@ projects are players, the README is a matchday programme.
 | `cards/*.svg` | `cards.py` | Content rises in, a spark of light runs around the border |
 | `bench.svg` | `bench.py` | Tiles rise in one after another |
 | `honours.svg` | `honours.py` | A shine sweeps across the trophy cabinet |
-| `portfolio.svg`, `footer.svg` | `cta.py` | Pulsing button ring, orbiting floodlight, a Mexican wave in the crowd |
+| `portfolio.svg`, `fulltime.svg` | `cta.py` | Pulsing button ring, orbiting floodlight, a Mexican wave in the crowd |
 
 ## Rules every asset follows
 

@@ -84,7 +84,7 @@ def footer():
         f'<g>{"".join(crowd)}</g>'
     )
     style = "@keyframes wave{0%,30%,100%{transform:translateY(0)}12%{transform:translateY(-16px)}}"
-    return write("footer.svg", document(W, h, "Full time: SDP42 1, Bugs 0. Thanks for visiting the stadium.", body, style))
+    return write("fulltime.svg", document(W, h, "Full time: SDP42 1, Bugs 0. Thanks for visiting the stadium.", body, style))
 
 
 def build():
