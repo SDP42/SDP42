@@ -154,3 +154,9 @@ Every project is a player, picked for a position that suits it. Click a card to 
 | **Engineering** | ![Python](https://img.shields.io/badge/Python-0B111B?style=for-the-badge&logo=python&logoColor=D4FF3A) ![FastAPI](https://img.shields.io/badge/FastAPI-0B111B?style=for-the-badge&logo=fastapi&logoColor=D4FF3A) ![React](https://img.shields.io/badge/React-0B111B?style=for-the-badge&logo=react&logoColor=D4FF3A) ![TypeScript](https://img.shields.io/badge/TypeScript-0B111B?style=for-the-badge&logo=typescript&logoColor=D4FF3A) ![Docker](https://img.shields.io/badge/Docker-0B111B?style=for-the-badge&logo=docker&logoColor=D4FF3A) ![Git](https://img.shields.io/badge/Git-0B111B?style=for-the-badge&logo=git&logoColor=D4FF3A) |
 
 <p align="right"><a href="#top">↑ back to top</a></p>
+
+<a id="activity"></a>
+
+<img src="assets/sections/activity.svg" width="100%" alt="08 · Training ground: GitHub activity" />
+
+<img src="profile-3d-contrib/profile-night-green.svg" width="100%" alt="My contribution calendar in 3D, with languages and activity breakdown" />
