@@ -85,3 +85,34 @@ class ReadmeTests(unittest.TestCase):
 
     def test_links_to_the_portfolio(self):
         self.assertIn(data.PORTFOLIO, self.readme)
+
+
+class DataTests(unittest.TestCase):
+    def test_squad_is_a_full_eleven(self):
+        numbers = [p["no"] for p in data.SQUAD]
+        self.assertEqual(sorted(numbers), list(range(1, 12)))
+        self.assertEqual(sum(1 for p in data.SQUAD if p.get("captain")), 1)
+
+    def test_players_stay_on_the_pitch(self):
+        for p in data.SQUAD:
+            x, z = p["at"]
+            with self.subTest(player=p["title"]):
+                self.assertLessEqual(abs(x), 52.5)
+                self.assertLessEqual(abs(z), 34)
+
+    def test_passing_order_uses_real_shirts(self):
+        numbers = {p["no"] for p in data.SQUAD}
+        self.assertTrue(set(data.PASSING_ORDER) <= numbers)
+
+    def test_card_copy_fits(self):
+        for p in data.SQUAD:
+            with self.subTest(player=p["title"]):
+                self.assertLessEqual(len(p["tagline"]), 68)
+                self.assertEqual(len(p["points"]), 3)
+                for point in p["points"]:
+                    self.assertLessEqual(len(point), 70)
+
+    def test_commit_total_matches_the_squad(self):
+        total = sum(p["commits"] for p in data.SQUAD)
+        shown = dict((label, value) for value, label in data.STATS)["Commits across the XI"]
+        self.assertEqual(int(shown.replace(",", "")), total)
