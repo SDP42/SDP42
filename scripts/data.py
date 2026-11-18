@@ -207,3 +207,6 @@ SQUAD = [
         "stack": ["PyTorch", "FastAPI", "TypeScript", "Chrome extension"],
     },
 ]
+
+# Build-up play, keeper to striker: the order the ball travels on the pitch.
+PASSING_ORDER = [1, 4, 6, 8, 10, 7, 9]
