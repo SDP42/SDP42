@@ -35,3 +35,19 @@ HONOURS = [
     {"big": "2×", "label": "Ideathon winner", "note": "Problem framing and solution design that won the room."},
     {"big": "JPMC", "label": "Code for Good", "note": "J.P. Morgan Chase & Co. hackathon building tech for non-profits."},
 ]
+
+# Scrolling ticker along the bottom of the hero and between sections.
+TICKER = [
+    "SDP42 FC TAKE THE FIELD",
+    "CGPA 9.70 / 10",
+    "5× HACKATHON WINNER",
+    "2× IDEATHON WINNER",
+    "JPMC CODE FOR GOOD",
+    "SECRETARY · DJS NSDC × INFOMATRIX",
+    "MIRAGE: 41/42 LAUNDERED VOICE DEEPFAKES CAUGHT",
+    "LEARNOVA: 700+ TESTS",
+    "ELEVATE 1.0: 700+ REGISTRATIONS",
+    "OPSDESK: 472 COMMITS",
+    "MERIDIAN: SIXTEEN AGENTS, FIVE DEFENCE LAYERS",
+    "TRANSFER WINDOW: OPEN",
+]
