@@ -131,3 +131,11 @@ Every project is a player, picked for a position that suits it. Click a card to 
 <img src="assets/sections/honours.svg" width="100%" alt="06 · Centre spot: Honours & roles" />
 
 <img src="assets/honours.svg" width="100%" alt="5× hackathon winner, 2× ideathon winner, JPMC Code for Good" />
+
+| When | Role | Where | What I do |
+| :-- | :-- | :-- | :-- |
+| Committee | **Secretary** · DJS NSDC × Infomatrix | DJSCE | Co-led Elevate 1.0, a 24-hour national hackathon; events, sponsorships and a 47-member organising committee |
+| Jun – Jul 2026 | **AI Data Analyst** | InAmigos Foundation | Data cleaning, EDA and statistical analysis in Python, Pandas and NumPy, with dashboards that drove decisions |
+| Ongoing | **Mentor** | Infomatrix Python Bootcamp | Teaching juniors Python, NumPy, Pandas, Matplotlib, Seaborn and core ML through hands-on notebooks |
+
+<p align="right"><a href="#top">↑ back to top</a></p>
