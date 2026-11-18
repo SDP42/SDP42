@@ -99,3 +99,9 @@ Every project is a player, picked for a position that suits it. Click a card to 
 **Live demos:** [Elevate 1.0](https://elevate1-0.vercel.app) · [East Coast Freight Desk](https://east-coast-freight-desk.vercel.app) · [Smart Resort 360](https://guestexperience.vercel.app) · [Stratify](https://dombivli-hackathon-s6vb.vercel.app)
 
 <p align="right"><a href="#top">↑ back to top</a></p>
+
+<a id="bench"></a>
+
+<img src="assets/sections/bench.svg" width="100%" alt="05 · The dugout: On the bench" />
+
+<a href="https://stadium-portfolio.vercel.app"><img src="assets/bench.svg" width="100%" alt="Nine more projects on the bench: Stratify, Medical AI chest X-ray, Parallel, Smart Resort 360, DriftWard, CityPulse AI, Learnova IPD, Football Analytics and HackNova L5614" /></a>
