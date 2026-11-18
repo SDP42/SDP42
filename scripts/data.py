@@ -28,3 +28,10 @@ ROLES = [
     "explainable models",
     "data pipelines end to end",
 ]
+
+# ── honours ──────────────────────────────────────────────────────────────────
+HONOURS = [
+    {"big": "5×", "label": "Hackathon winner", "note": "Working AI, data and full-stack products built against the clock."},
+    {"big": "2×", "label": "Ideathon winner", "note": "Problem framing and solution design that won the room."},
+    {"big": "JPMC", "label": "Code for Good", "note": "J.P. Morgan Chase & Co. hackathon building tech for non-profits."},
+]
