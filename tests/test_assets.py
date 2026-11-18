@@ -55,3 +55,33 @@ class SvgTests(unittest.TestCase):
         for path in svgs():
             with self.subTest(path=path.name):
                 self.assertIn("prefers-reduced-motion", path.read_text(encoding="utf-8"))
+
+
+class ReadmeTests(unittest.TestCase):
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+
+    def test_local_images_exist(self):
+        for src in re.findall(r'src="((?:assets|profile-3d-contrib)/[^"]+)"', self.readme):
+            with self.subTest(src=src):
+                self.assertTrue((ROOT / src).is_file(), src)
+
+    def test_images_have_alt_text(self):
+        for tag in re.findall(r"<img [^>]+>", self.readme):
+            with self.subTest(tag=tag[:60]):
+                self.assertRegex(tag, r'alt="[^"]+"')
+
+    def test_in_page_links_resolve(self):
+        anchors = set(re.findall(r'<a id="([^"]+)"', self.readme))
+        for target in re.findall(r'href="#([^"]+)"', self.readme):
+            with self.subTest(target=target):
+                self.assertIn(target, anchors)
+
+    def test_every_card_is_used(self):
+        for card in (ASSETS / "cards").glob("*.svg"):
+            if card.stem.endswith("mirage"):
+                continue  # the captain has its own feature card
+            with self.subTest(card=card.name):
+                self.assertIn(f"assets/cards/{card.name}", self.readme)
+
+    def test_links_to_the_portfolio(self):
+        self.assertIn(data.PORTFOLIO, self.readme)
