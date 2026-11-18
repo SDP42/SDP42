@@ -52,3 +52,9 @@ I like problems where a wrong answer costs something real (freight bills, medica
 </details>
 
 <p align="right"><a href="#top">↑ back to top</a></p>
+
+<a id="stats"></a>
+
+<img src="assets/sections/scoreboard.svg" width="100%" alt="02 · Big screen: Match stats" />
+
+<img src="assets/scoreboard.svg" width="100%" alt="CGPA 9.70 out of 10. 5 hackathon wins. 2 ideathon wins. 11 projects in the Starting XI. 1,392 commits across them." />
