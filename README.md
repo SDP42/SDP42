@@ -60,3 +60,9 @@ I like problems where a wrong answer costs something real (freight bills, medica
 <img src="assets/scoreboard.svg" width="100%" alt="CGPA 9.70 out of 10. 5 hackathon wins. 2 ideathon wins. 11 projects in the Starting XI. 1,392 commits across them." />
 
 <img src="assets/ticker.svg" width="100%" alt="Honours ticker: 5× hackathon winner, 2× ideathon winner, JPMC Code for Good, and project milestones" />
+
+<a id="captain"></a>
+
+<img src="assets/sections/captain.svg" width="100%" alt="03 · The armband: Captain's project" />
+
+<a href="https://github.com/SDP42/isacaps2"><img src="assets/captain.svg" width="100%" alt="MIRAGE, Multimodal Impersonation & Request-Aware Guard Engine. 201 commits, 1.87% voice EER, 41 of 42 laundered voice fakes and 15 of 15 image fakes caught. Detect, explain, cure, shield." /></a>
