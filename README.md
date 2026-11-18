@@ -125,3 +125,9 @@ Every project is a player, picked for a position that suits it. Click a card to 
 </details>
 
 <p align="right"><a href="#top">↑ back to top</a></p>
+
+<a id="honours"></a>
+
+<img src="assets/sections/honours.svg" width="100%" alt="06 · Centre spot: Honours & roles" />
+
+<img src="assets/honours.svg" width="100%" alt="5× hackathon winner, 2× ideathon winner, JPMC Code for Good" />
