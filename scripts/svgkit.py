@@ -31,3 +31,13 @@ def write(name, svg):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(svg, encoding="utf-8")
     return path
+
+
+def anim(name, duration, delay=0.0, extra=""):
+    """Inline style for a one-shot entrance animation."""
+    return f"animation:{name} {duration}s {EASE} {delay:.2f}s both{extra}"
+
+
+def mono_width(text, size):
+    """Rendered width of monospace text."""
+    return len(text) * size * MONO_W
