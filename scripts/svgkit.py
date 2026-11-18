@@ -41,3 +41,18 @@ def anim(name, duration, delay=0.0, extra=""):
 def mono_width(text, size):
     """Rendered width of monospace text."""
     return len(text) * size * MONO_W
+
+
+def wrap(text, limit):
+    """Greedy word wrap to at most `limit` characters per line."""
+    lines, line = [], ""
+    for word in text.split():
+        trial = f"{line} {word}".strip()
+        if len(trial) > limit and line:
+            lines.append(line)
+            line = word
+        else:
+            line = trial
+    if line:
+        lines.append(line)
+    return lines
