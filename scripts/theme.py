@@ -18,3 +18,11 @@ GOLD = "#f3c75a"    # honours
 SKY = "#62c8ff"     # links, highlights
 GRASS = "#123d1f"   # pitch
 GRASS_2 = "#164a26" # pitch stripe
+
+# ── type ─────────────────────────────────────────────────────────────────────
+# GitHub renders README SVGs as <img>, so web fonts never load: stick to
+# fonts that ship with Windows, macOS and Linux desktops.
+SANS = "'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif"
+DISPLAY = "'Arial Black','Segoe UI Black','Helvetica Neue',Impact,Arial,sans-serif"
+MONO = "'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace"
+MONO_W = 0.6  # advance width of a monospace glyph, in ems
