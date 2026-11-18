@@ -91,3 +91,7 @@ Every project is a player, picked for a position that suits it. Click a card to 
   <a href="https://github.com/SDP42/BrainMapAI"><img src="assets/cards/06-brainmap.svg" width="49%" alt="#6 BrainMapAI, defensive midfield: turns PDFs and research papers into knowledge graphs. 58 commits." /></a>
   <a href="https://github.com/SDP42/ohmen"><img src="assets/cards/04-ohmen.svg" width="49%" alt="#4 OHMEN, centre back: an AI cyber-risk digital twin for critical infrastructure. 62 commits." /></a>
 </p>
+<p align="center">
+  <a href="https://github.com/SDP42/SIH_PS_10"><img src="assets/cards/02-namaste.svg" width="49%" alt="#2 NAMASTE × ICD-11, right back: a FHIR R4 service linking traditional and modern medical codes. 40 commits." /></a>
+  <a href="https://github.com/SDP42/Elevate1.0"><img src="assets/cards/01-elevate.svg" width="49%" alt="#1 Elevate 1.0, goalkeeper: the platform that ran a 24-hour national hackathon. 145 commits. Live demo." /></a>
+</p>
