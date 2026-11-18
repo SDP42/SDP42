@@ -56,3 +56,28 @@ def wrap(text, limit):
     if line:
         lines.append(line)
     return lines
+
+
+def chip(x, y, label, color=INK, size=12, pad=10, fill=PANEL_2, stroke=LINE):
+    """A rounded monospace tag. Returns (markup, width)."""
+    w = mono_width(label, size) + pad * 2
+    h = size + 12
+    markup = (
+        f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="{h}" rx="{h / 2}" '
+        f'fill="{fill}" stroke="{stroke}"/>'
+        f'<text x="{x + w / 2:.1f}" y="{y + h / 2 + size * 0.36:.1f}" text-anchor="middle" '
+        f'font-family="{MONO}" font-size="{size}" font-weight="600" fill="{color}">{esc(label)}</text>'
+    )
+    return markup, w
+
+
+def chips(x, y, labels, max_x, gap=8, **kw):
+    """Lay out chips left to right, dropping any that would overflow max_x."""
+    out = []
+    for label in labels:
+        markup, w = chip(x, y, label, **kw)
+        if x + w > max_x:
+            break
+        out.append(markup)
+        x += w + gap
+    return "".join(out)
