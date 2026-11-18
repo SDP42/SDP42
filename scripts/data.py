@@ -51,3 +51,13 @@ TICKER = [
     "MERIDIAN: SIXTEEN AGENTS, FIVE DEFENCE LAYERS",
     "TRANSFER WINDOW: OPEN",
 ]
+
+# ── scoreboard ───────────────────────────────────────────────────────────────
+# (value, label) pairs rendered as rolling odometer digits.
+STATS = [
+    ("9.70", "CGPA / 10"),
+    ("5", "Hackathon wins"),
+    ("2", "Ideathon wins"),
+    ("11", "Projects in the XI"),
+    ("1,392", "Commits across the XI"),
+]
