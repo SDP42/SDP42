@@ -116,3 +116,16 @@ class DataTests(unittest.TestCase):
         total = sum(p["commits"] for p in data.SQUAD)
         shown = dict((label, value) for value, label in data.STATS)["Commits across the XI"]
         self.assertEqual(int(shown.replace(",", "")), total)
+
+
+class BuildTests(unittest.TestCase):
+    def test_assets_are_up_to_date(self):
+        result = subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "build.py"), "--check"],
+            capture_output=True, text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+
+if __name__ == "__main__":
+    unittest.main()
