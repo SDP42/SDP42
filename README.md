@@ -139,3 +139,18 @@ Every project is a player, picked for a position that suits it. Click a card to 
 | Ongoing | **Mentor** | Infomatrix Python Bootcamp | Teaching juniors Python, NumPy, Pandas, Matplotlib, Seaborn and core ML through hands-on notebooks |
 
 <p align="right"><a href="#top">↑ back to top</a></p>
+
+<a id="toolkit"></a>
+
+<img src="assets/sections/toolkit.svg" width="100%" alt="07 · Kit room: Toolkit" />
+
+| | |
+| :-- | :-- |
+| **Machine learning** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-0B111B?style=for-the-badge&logo=scikitlearn&logoColor=D4FF3A) ![XGBoost](https://img.shields.io/badge/XGBoost-0B111B?style=for-the-badge&logo=xgboost&logoColor=D4FF3A) ![statsmodels](https://img.shields.io/badge/statsmodels-0B111B?style=for-the-badge&logo=python&logoColor=D4FF3A) ![SHAP](https://img.shields.io/badge/SHAP-0B111B?style=for-the-badge&logo=databricks&logoColor=D4FF3A) |
+| **Deep learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-0B111B?style=for-the-badge&logo=pytorch&logoColor=D4FF3A) ![TensorFlow](https://img.shields.io/badge/TensorFlow-0B111B?style=for-the-badge&logo=tensorflow&logoColor=D4FF3A) ![Keras](https://img.shields.io/badge/Keras-0B111B?style=for-the-badge&logo=keras&logoColor=D4FF3A) ![OpenCV](https://img.shields.io/badge/OpenCV-0B111B?style=for-the-badge&logo=opencv&logoColor=D4FF3A) ![YOLO](https://img.shields.io/badge/YOLO-0B111B?style=for-the-badge&logo=yolo&logoColor=D4FF3A) |
+| **GenAI & NLP** | ![Gemini](https://img.shields.io/badge/Gemini-0B111B?style=for-the-badge&logo=googlegemini&logoColor=D4FF3A) ![Groq](https://img.shields.io/badge/Groq-0B111B?style=for-the-badge&logo=lightning&logoColor=D4FF3A) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-0B111B?style=for-the-badge&logo=huggingface&logoColor=D4FF3A) ![spaCy](https://img.shields.io/badge/spaCy-0B111B?style=for-the-badge&logo=spacy&logoColor=D4FF3A) ![Ollama](https://img.shields.io/badge/Ollama-0B111B?style=for-the-badge&logo=ollama&logoColor=D4FF3A) |
+| **Data science** | ![Pandas](https://img.shields.io/badge/Pandas-0B111B?style=for-the-badge&logo=pandas&logoColor=D4FF3A) ![NumPy](https://img.shields.io/badge/NumPy-0B111B?style=for-the-badge&logo=numpy&logoColor=D4FF3A) ![SciPy](https://img.shields.io/badge/SciPy-0B111B?style=for-the-badge&logo=scipy&logoColor=D4FF3A) ![Plotly](https://img.shields.io/badge/Plotly-0B111B?style=for-the-badge&logo=plotly&logoColor=D4FF3A) ![Jupyter](https://img.shields.io/badge/Jupyter-0B111B?style=for-the-badge&logo=jupyter&logoColor=D4FF3A) |
+| **DBMS & SQL** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B111B?style=for-the-badge&logo=postgresql&logoColor=D4FF3A) ![SQLite](https://img.shields.io/badge/SQLite-0B111B?style=for-the-badge&logo=sqlite&logoColor=D4FF3A) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0B111B?style=for-the-badge&logo=sqlalchemy&logoColor=D4FF3A) ![Redis](https://img.shields.io/badge/Redis-0B111B?style=for-the-badge&logo=redis&logoColor=D4FF3A) |
+| **Engineering** | ![Python](https://img.shields.io/badge/Python-0B111B?style=for-the-badge&logo=python&logoColor=D4FF3A) ![FastAPI](https://img.shields.io/badge/FastAPI-0B111B?style=for-the-badge&logo=fastapi&logoColor=D4FF3A) ![React](https://img.shields.io/badge/React-0B111B?style=for-the-badge&logo=react&logoColor=D4FF3A) ![TypeScript](https://img.shields.io/badge/TypeScript-0B111B?style=for-the-badge&logo=typescript&logoColor=D4FF3A) ![Docker](https://img.shields.io/badge/Docker-0B111B?style=for-the-badge&logo=docker&logoColor=D4FF3A) ![Git](https://img.shields.io/badge/Git-0B111B?style=for-the-badge&logo=git&logoColor=D4FF3A) |
+
+<p align="right"><a href="#top">↑ back to top</a></p>
