@@ -20,3 +20,11 @@ PROFILE = {
     "location": "Mumbai, India",
     "summary": "I build ML and GenAI systems that turn raw data into decisions.",
 }
+
+# Words cycled by the hero's typing line: "> building ___"
+ROLES = [
+    "ML systems that hold up",
+    "GenAI products people use",
+    "explainable models",
+    "data pipelines end to end",
+]
