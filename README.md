@@ -177,3 +177,9 @@ Every project is a player, picked for a position that suits it. Click a card to 
   Open to <b>internships</b>, <b>research collaborations</b> and <b>hackathon teams</b> in data science, ML and GenAI.<br />
   The quickest way to reach me is LinkedIn, or the contact page in the stadium.
 </p>
+
+<p align="center">
+  <a href="https://stadium-portfolio.vercel.app/#/contact"><img src="https://img.shields.io/badge/Press_box-Contact_me-D4FF3A?style=for-the-badge&labelColor=0B111B&logo=minutemailer&logoColor=D4FF3A" alt="Contact me through the portfolio" /></a>
+  <a href="https://www.linkedin.com/in/swayam-panchal-11281b34a/"><img src="https://img.shields.io/badge/LinkedIn-Swayam_Panchal-62C8FF?style=for-the-badge&labelColor=0B111B&logo=linkedin&logoColor=62C8FF" alt="LinkedIn" /></a>
+  <a href="https://sdp42.github.io"><img src="https://img.shields.io/badge/Classic_portfolio-sdp42.github.io-F4F6FA?style=for-the-badge&labelColor=0B111B&logo=githubpages&logoColor=F4F6FA" alt="Classic portfolio at sdp42.github.io" /></a>
+</p>
