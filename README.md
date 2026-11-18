@@ -66,3 +66,11 @@ I like problems where a wrong answer costs something real (freight bills, medica
 <img src="assets/sections/captain.svg" width="100%" alt="03 · The armband: Captain's project" />
 
 <a href="https://github.com/SDP42/isacaps2"><img src="assets/captain.svg" width="100%" alt="MIRAGE, Multimodal Impersonation & Request-Aware Guard Engine. 201 commits, 1.87% voice EER, 41 of 42 laundered voice fakes and 15 of 15 image fakes caught. Detect, explain, cure, shield." /></a>
+
+<a id="starting-xi"></a>
+
+<img src="assets/sections/pitch.svg" width="100%" alt="04 · The pitch: Starting XI" />
+
+<a href="https://stadium-portfolio.vercel.app"><img src="assets/pitch.svg" width="100%" alt="Eleven projects as a football team in a 4-3-3, with the ball passed from the keeper to the striker" /></a>
+
+Every project is a player, picked for a position that suits it. Click a card to open the repository; full case studies and project documents are in the **[stadium](https://stadium-portfolio.vercel.app)**.
