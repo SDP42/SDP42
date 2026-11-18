@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<a href="https://stadium-portfolio.vercel.app"><img src="assets/hero.svg" width="100%" alt="Swayam Panchal. Live from Mumbai. AI and Data Science undergrad at DJSCE, CGPA 9.70, 5× hackathon winner. I build ML and GenAI systems that turn raw data into decisions." /></a>
+<a href="https://stadium-portfolio.vercel.app"><img src="assets/stadium-hero.svg" width="100%" alt="Swayam Panchal. Live from Mumbai. AI and Data Science undergrad at DJSCE, CGPA 9.70, 5× hackathon winner. I build ML and GenAI systems that turn raw data into decisions." /></a>
 
 <p align="center">
   <a href="https://stadium-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Enter_the_stadium_%E2%86%92-D4FF3A?style=for-the-badge&labelColor=0B111B&logo=googlechrome&logoColor=D4FF3A" alt="Portfolio: enter the stadium" /></a>

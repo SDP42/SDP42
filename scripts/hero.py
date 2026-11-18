@@ -233,7 +233,7 @@ def build():
         f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="22" fill="none" stroke="{LINE}"/>'
     )
     label = f"{PROFILE['name']}: {PROFILE['role']}. {PROFILE['summary']}"
-    return write("hero.svg", document(W, H, label, body, style, defs))
+    return write("stadium-hero.svg", document(W, H, label, body, style, defs))
 
 
 if __name__ == "__main__":

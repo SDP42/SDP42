@@ -18,7 +18,7 @@ projects are players, the README is a matchday programme.
 
 | Asset | Module | What moves |
 | :-- | :-- | :-- |
-| `hero.svg` | `hero.py` | Floodlights switch on in turn, the surname draws itself in, the role line cycles, players chase the ball, the ticker scrolls |
+| `stadium-hero.svg` | `hero.py` | Floodlights switch on in turn, the surname draws itself in, the role line cycles, players chase the ball, the ticker scrolls |
 | `sections/*.svg` | `banners.py` | Heading rises in, the lime bar sweeps across |
 | `scoreboard.svg` | `scoreboard.py` | Odometer digits roll up to each stat |
 | `ticker.svg` | `ticker.py` | Endless honours marquee |
