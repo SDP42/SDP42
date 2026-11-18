@@ -177,3 +177,24 @@ def headline():
         f"{esc(PROFILE['summary'])} This is my stadium.</text>"
     )
     return text, frames
+
+
+def ticker():
+    left = 330
+    marquee_markup, frames = marquee(left, TICK_Y, W - left, H - TICK_Y, name="hero-tick")
+    board = (
+        f'<rect x="0" y="{TICK_Y}" width="{W}" height="{H - TICK_Y}" fill="#070b12"/>'
+        f'<line x1="0" y1="{TICK_Y}" x2="{W}" y2="{TICK_Y}" stroke="{LINE}"/>'
+        f'<rect x="18" y="{TICK_Y + 10}" width="52" height="24" rx="4" fill="{RED}"/>'
+        + caption(44, TICK_Y + 27, "Live", color="#fff", size=12, spacing=1.5, anchor="middle")
+        + f'<text x="84" y="{TICK_Y + 27}" font-family="{MONO}" font-size="13" font-weight="700" fill="{INK}">SDP42</text>'
+        f'<rect x="136" y="{TICK_Y + 9}" width="24" height="26" rx="4" fill="{INK}"/>'
+        f'<text x="148" y="{TICK_Y + 27}" text-anchor="middle" font-family="{MONO}" font-size="15" font-weight="800" fill="{BG}">1</text>'
+        f'<text x="170" y="{TICK_Y + 27}" text-anchor="middle" font-family="{MONO}" font-size="13" fill="{DIM}">–</text>'
+        f'<rect x="180" y="{TICK_Y + 9}" width="24" height="26" rx="4" fill="{INK}"/>'
+        f'<text x="192" y="{TICK_Y + 27}" text-anchor="middle" font-family="{MONO}" font-size="15" font-weight="800" fill="{BG}">0</text>'
+        f'<text x="214" y="{TICK_Y + 27}" font-family="{MONO}" font-size="13" font-weight="700" fill="{INK}">BUGS</text>'
+        f'<text x="262" y="{TICK_Y + 27}" font-family="{MONO}" font-size="13" font-weight="700" fill="{LIME}">90+<tspan style="animation:blink 1s steps(1) infinite">\'</tspan></text>'
+        f'<line x1="{left}" y1="{TICK_Y + 8}" x2="{left}" y2="{H - 8}" stroke="{LINE}"/>'
+    )
+    return board + marquee_markup, frames
