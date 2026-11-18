@@ -55,3 +55,19 @@ def grass():
         for i in range(bands)
     )
     return f'<rect x="{X0 - 30}" y="{Y0 - 30}" width="{PW + 60}" height="{PH + 60}" rx="10" fill="#0f3219"/>{stripes}'
+
+
+def route():
+    """Screen points the ball visits and the fraction of the cycle at each."""
+    by_no = {p["no"]: p for p in SQUAD}
+    points = [at(*by_no[n]["at"]) for n in PASSING_ORDER]
+    goal = at(52.5 + 1.5, 1.2)
+    points.append(goal)
+    lengths = [math.dist(a, b) for a, b in zip(points, points[1:])]
+    total = sum(lengths)
+    play = 0.86  # share of the cycle the ball is moving; the rest is the celebration
+    arrive, run = [0.0], 0.0
+    for seg in lengths:
+        run += seg
+        arrive.append(run / total * play)
+    return points, arrive, play
