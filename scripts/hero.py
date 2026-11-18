@@ -198,3 +198,43 @@ def ticker():
         f'<line x1="{left}" y1="{TICK_Y + 8}" x2="{left}" y2="{H - 8}" stroke="{LINE}"/>'
     )
     return board + marquee_markup, frames
+
+
+def build():
+    rng = random.Random(42)
+    text, word_frames = headline()
+    strip, marquee_frames = ticker()
+    defs = (
+        f'<linearGradient id="night" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0" stop-color="#0a1222"/><stop offset=".6" stop-color="{BG}"/><stop offset="1" stop-color="#03050a"/></linearGradient>'
+        f'<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0" stop-color="#fffbe6" stop-opacity=".55"/><stop offset="1" stop-color="#fffbe6" stop-opacity="0"/></linearGradient>'
+        f'<radialGradient id="halo"><stop offset="0" stop-color="#fffbe6" stop-opacity=".7"/><stop offset="1" stop-color="#fffbe6" stop-opacity="0"/></radialGradient>'
+        f'<radialGradient id="vignette" cx=".28" cy=".5" r=".7"><stop offset="0" stop-color="{BG}" stop-opacity=".92"/>'
+        f'<stop offset=".55" stop-color="{BG}" stop-opacity=".55"/><stop offset="1" stop-color="{BG}" stop-opacity="0"/></radialGradient>'
+        f'<pattern id="windows" width="9" height="11" patternUnits="userSpaceOnUse">'
+        f'<rect x="2" y="3" width="4" height="6" fill="{GOLD}" opacity=".35"/></pattern>'
+        f'<clipPath id="frame"><rect width="{W}" height="{H}" rx="22"/></clipPath>'
+    )
+    style = (
+        f".word{{fill:{LIME}}}"
+        f".outline{{fill:none;stroke:{LIME};stroke-width:2.4;stroke-dasharray:1600;stroke-dashoffset:0;"
+        f"animation:draw 2.6s {'cubic-bezier(.65,0,.35,1)'} .5s both}}"
+        "@keyframes draw{from{stroke-dashoffset:1600}}"
+        "@keyframes lightson{from{opacity:0}}"
+        "@keyframes sway{to{transform:rotate(2.5deg)}}"
+        "@keyframes flash{0%,92%,100%{opacity:0}95%{opacity:1}}"
+        + word_frames
+        + marquee_frames
+    )
+    body = (
+        f'<g clip-path="url(#frame)">{sky(rng)}{floodlights()}{stadium(rng)}'
+        f'<rect width="760" height="{TICK_Y}" fill="url(#vignette)"/>{text}{strip}</g>'
+        f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="22" fill="none" stroke="{LINE}"/>'
+    )
+    label = f"{PROFILE['name']}: {PROFILE['role']}. {PROFILE['summary']}"
+    return write("hero.svg", document(W, H, label, body, style, defs))
+
+
+if __name__ == "__main__":
+    print(build())
