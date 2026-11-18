@@ -81,3 +81,11 @@ def chips(x, y, labels, max_x, gap=8, **kw):
         out.append(markup)
         x += w + gap
     return "".join(out)
+
+
+def caption(x, y, text, color=DIM, size=12, spacing=2.4, anchor="start", weight=700):
+    """Uppercase monospace eyebrow text."""
+    return (
+        f'<text x="{x}" y="{y}" text-anchor="{anchor}" font-family="{MONO}" font-size="{size}" '
+        f'font-weight="{weight}" letter-spacing="{spacing}" fill="{color}">{esc(text.upper())}</text>'
+    )
