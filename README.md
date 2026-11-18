@@ -83,3 +83,7 @@ Every project is a player, picked for a position that suits it. Click a card to 
   <a href="https://github.com/SDP42/agentx"><img src="assets/cards/07-meridian.svg" width="49%" alt="#7 MERIDIAN, right wing: a voice-first agentic paper-trading desk with sixteen agents. 116 commits." /></a>
   <a href="https://github.com/SDP42/WorldCupAI-2026"><img src="assets/cards/11-worldcup.svg" width="49%" alt="#11 WorldCupAI 2026, left wing: predicts the FIFA World Cup 2026 knockout bracket." /></a>
 </p>
+<p align="center">
+  <a href="https://github.com/SDP42/east-coast-freight-desk"><img src="assets/cards/03-freight.svg" width="49%" alt="#3 East Coast Freight Desk, left back: freight forecasts and chartering calls for SAIL's coal imports. Live demo." /></a>
+  <a href="https://github.com/SDP42/datapilot"><img src="assets/cards/05-datapilot.svg" width="49%" alt="#5 DataPilot, centre back: an autonomous data scientist that explains every step. 71 commits." /></a>
+</p>
