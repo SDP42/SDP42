@@ -95,3 +95,7 @@ Every project is a player, picked for a position that suits it. Click a card to 
   <a href="https://github.com/SDP42/SIH_PS_10"><img src="assets/cards/02-namaste.svg" width="49%" alt="#2 NAMASTE × ICD-11, right back: a FHIR R4 service linking traditional and modern medical codes. 40 commits." /></a>
   <a href="https://github.com/SDP42/Elevate1.0"><img src="assets/cards/01-elevate.svg" width="49%" alt="#1 Elevate 1.0, goalkeeper: the platform that ran a 24-hour national hackathon. 145 commits. Live demo." /></a>
 </p>
+
+**Live demos:** [Elevate 1.0](https://elevate1-0.vercel.app) · [East Coast Freight Desk](https://east-coast-freight-desk.vercel.app) · [Smart Resort 360](https://guestexperience.vercel.app) · [Stratify](https://dombivli-hackathon-s6vb.vercel.app)
+
+<p align="right"><a href="#top">↑ back to top</a></p>
