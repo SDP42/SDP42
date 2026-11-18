@@ -105,3 +105,23 @@ Every project is a player, picked for a position that suits it. Click a card to 
 <img src="assets/sections/bench.svg" width="100%" alt="05 · The dugout: On the bench" />
 
 <a href="https://stadium-portfolio.vercel.app"><img src="assets/bench.svg" width="100%" alt="Nine more projects on the bench: Stratify, Medical AI chest X-ray, Parallel, Smart Resort 360, DriftWard, CityPulse AI, Learnova IPD, Football Analytics and HackNova L5614" /></a>
+
+<details>
+<summary><b>Bench links</b></summary>
+<br />
+
+| Project | What it is | Stack |
+| :-- | :-- | :-- |
+| [Stratify](https://dombivli-hackathon-s6vb.vercel.app) | Algorithmic trading platform with a Pandas and NumPy strategy backtester | Python · React · SQL |
+| Medical AI · Chest X-ray | YOLOv9 and DenseNet-121 diagnosis on 2,000+ chest X-rays, explained with Grad-CAM | PyTorch · YOLOv9 · Grad-CAM |
+| [Parallel](https://github.com/SDP42/parallel) | Attention digital twin that shows both futures of a notification before you tap | TypeScript · Python · Causal ML |
+| [Smart Resort 360](https://github.com/SDP42/guestexperience) | Guest portal with a live 3D twin of a 130-suite resort and a trilingual concierge | Next.js · three.js · RAG |
+| [DriftWard](https://github.com/SDP42/driftward) | Behavioural identity layer that contains hijacked AI agents with still-valid tokens | FastAPI · three.js · CUSUM |
+| [CityPulse AI](https://github.com/SDP42/citypulse-ai) | Local-first civic evidence workbench where every number traces back to source rows | FastAPI · SQLite · H3 |
+| [Learnova IPD](https://github.com/SDP42/LearnovaIPD) | The original engine behind Learnova, turning text-heavy decks into visual slides | Python · Groq · Gemini |
+| [Football Analytics](https://github.com/SDP42/Football-Analytics) | Tactical football analytics platform, in research and architecture phase | Python · ML · CV |
+| [HackNova L5614](https://github.com/SDP42/HackNova-L5614) | A logistics platform built against the clock at the HackNova L5614 hackathon | JavaScript · Python · Docker |
+
+</details>
+
+<p align="right"><a href="#top">↑ back to top</a></p>
