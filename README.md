@@ -160,3 +160,9 @@ Every project is a player, picked for a position that suits it. Click a card to 
 <img src="assets/sections/activity.svg" width="100%" alt="08 · Training ground: GitHub activity" />
 
 <img src="profile-3d-contrib/profile-night-green.svg" width="100%" alt="My contribution calendar in 3D, with languages and activity breakdown" />
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=SDP42&background=0B111B&border=1C2636&stroke=1C2636&ring=D4FF3A&fire=F3C75A&currStreakNum=F4F6FA&sideNums=F4F6FA&currStreakLabel=D4FF3A&sideLabels=AAB5C8&dates=6B7689&border_radius=20" alt="Contribution streak" />
+</p>
+
+<p align="right"><a href="#top">↑ back to top</a></p>
