@@ -79,3 +79,7 @@ Every project is a player, picked for a position that suits it. Click a card to 
   <a href="https://github.com/SDP42/OpsDesk"><img src="assets/cards/10-opsdesk.svg" width="49%" alt="#10 OpsDesk, playmaker: a travel-ops ticketing desk run like an air-traffic control tower. 472 commits." /></a>
   <a href="https://github.com/SDP42/LearnovaV2"><img src="assets/cards/08-learnova.svg" width="49%" alt="#8 Learnova V2, central midfield: rebuilds lecture PDFs into illustrated, interactive decks. 185 commits." /></a>
 </p>
+<p align="center">
+  <a href="https://github.com/SDP42/agentx"><img src="assets/cards/07-meridian.svg" width="49%" alt="#7 MERIDIAN, right wing: a voice-first agentic paper-trading desk with sixteen agents. 116 commits." /></a>
+  <a href="https://github.com/SDP42/WorldCupAI-2026"><img src="assets/cards/11-worldcup.svg" width="49%" alt="#11 WorldCupAI 2026, left wing: predicts the FIFA World Cup 2026 knockout bracket." /></a>
+</p>
